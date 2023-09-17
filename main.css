@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 100px 0;
+    margin: 0 auto;   
+    display: flex;
+    background: #a09b9b;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.card{
+    text-align: center;
+}
+.search{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
