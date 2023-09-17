@@ -14,13 +14,15 @@ const obj = {
     price:''
 }
 
-    console.log(obj)
-
 
 btn.addEventListener('click', function(){
-    // obj.image.valueOf = inputImage.src
     productText.innerText = inputProduct.value
     priceText.innerText = [ '$' + inputPrice.value ] 
     img.src = inputImage.value
+
+    inputProduct.value = ''
+    inputPrice.value = ''
+    inputImage.value = ''
+
 })
 
